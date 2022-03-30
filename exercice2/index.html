@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="setcookies.php" method="post">
+      <p>Entrez votre numero de carte etudiant</p>
+      <input type="text" name="id" required />
+      <br />
+      <p>quel est votre évaluation du contenu du cours PHP pour le moment :</p>
+      <input type="radio" name="eval" value="Bon" /><label>Bon</label>
+      <input type="radio" name="eval" value="Moyen" /><label>Moyen</label>
+      <input type="radio" name="eval" value="Mauvais" /><label>Mauvais</label>
+      <input type="submit" value="Voter" required />
+    </form>
+  </body>
+</html>
